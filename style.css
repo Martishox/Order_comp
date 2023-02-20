@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 39%;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    height: 650px;
+    width: 400px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 10px 10px 20px hsl(225, 100%, 88%);
+}
+
+.attribution{
+    padding: 50px;
+}
+
+.pic img{
+    border-radius: 18px 18px 0 0;
+    width: 400px;
+}
+
+.main_text h2{
+    text-align: center;
+    margin: 10px;
+    padding: 30px 10px 1px;
+}
+
+.main_text p{
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    padding: 10px 60px;
+    line-height: 1.5;
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    margin: 30px;
+    padding: 15px 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-radius: 10px;
+}
+
+.plan img{
+    padding: 8px 12px;
+}
+
+.plan .text h4{
+    padding: 8px 0;
+}
+
+.plan .text p{
+    padding: 0 ;
+}
+
+.plan a{
+    padding: 20px 12px;
+    font-weight: 700; transition: 0.3s;
+}
+.plan a:hover {opacity: 0.5}
+
+.btn{
+    display: grid;
+    text-align: center;
+}
+
+.btn .payment_btn{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px hsl(225, 100%, 88%);
+    transition: 0.3s;
+}
+
+.btn .payment_btn:hover {opacity: 0.8}
+
+.btn .cancel_btn{
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+    margin: 0 30px;
+    padding: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn .cancel_btn:hover {opacity: 0.5}
+
+
+@media (max-width: 375px)
+{
+    .all{
+        font-family: 'Red Hat Display', sans-serif;
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 39%;
+        background-color: hsl(225, 100%, 94%);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container{
+        height: 630px;
+        width: 330px;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 10px 10px 20px hsl(225, 100%, 88%);
+    }
+    
+    .attribution{
+        padding: 50px;
+    }
+    
+    .pic img{
+        border-radius: 18px 18px 0 0;
+        width: 330px;
+    }
+    
+    .main_text h2{
+        text-align: center;
+        margin: 10px;
+        padding: 30px 10px 1px;
+    }
+    
+    .main_text p{
+        font-size: 16px;
+        color: hsl(224, 26%, 26%);
+        text-align: center;
+        padding: 10px 40px;
+        line-height: 1.5;
+    }
+    
+    .plan{
+        background-color: hsl(225, 100%, 98%);
+        margin: 30px;
+        padding: 15px 10px;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        border-radius: 10px;
+    }
+    
+    .plan img{
+        padding: 8px 12px 8px 5px;
+    }
+    
+    .plan .text h4{
+        padding: 8px 0;
+    }
+    
+    .plan .text p{
+        padding: 0 ;
+    }
+    
+    .plan a{
+        padding: 20px 1px;
+        font-weight: 700; 
+        transition: 0.3s;
+    }
+    .plan a:hover {opacity: 0.5}
+    
+    .btn{
+        display: grid;
+        text-align: center;
+    }
+    
+    .btn .payment_btn{
+        font-size: 16px;
+        font-weight: 700;
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        text-decoration: none;
+        margin: 0 30px;
+        padding: 12px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px hsl(225, 100%, 88%);
+        transition: 0.3s;
+    }
+    
+    .btn .payment_btn:hover {opacity: 0.8}
+    
+    .btn .cancel_btn{
+        color: hsl(223, 47%, 23%);
+        text-decoration: none;
+        margin: 0 30px;
+        padding: 18px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    
+    .btn .cancel_btn:hover {opacity: 0.5}
+    
+}
